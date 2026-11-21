@@ -1,0 +1,51 @@
+order_id,customer_name,product,category,quantity,unit_price,order_date,region
+CMD-00001,Société Lumière,"Écran 27""",Électronique,8,112.77,2024-02-22,Centre
+CMD-00002,Coopérative Est,Casque Bluetooth,Électronique,1,48.21,2024-04-29,Centre
+CMD-00003,Maison Claire,Webcam HD,Électronique,8,225.43,2024-05-22,Nord
+CMD-00004,Coopérative Est,Étagère,Mobilier,9,79.01,2024-06-21,Nord
+CMD-00005,Coopérative Est,Casque Bluetooth,Électronique,12,423.98,2024-11-05,Est
+CMD-00006,Labo Central,Casque Bluetooth,Électronique,13,40.78,2024-05-30,Centre
+CMD-00007,Maison Claire,Ramette A4,Fournitures,2,331.14,2024-05-28,Nord
+CMD-00008,Atelier Nord,Tapis de sol,Mobilier,9,227.53,2024-07-05,Sud
+CMD-00009,Boutique Ouest,Stylo gel,Fournitures,9,351.36,2024-12-15,Nord
+CMD-00010,Maison Claire,Bureau ajustable,Mobilier,15,190.66,2024-11-23,Centre
+CMD-00011,Boutique Ouest,Chaise de bureau,Mobilier,8,411.17,2024-06-10,Ouest
+CMD-00012,Atelier Nord,Stylo gel,Fournitures,19,438.37,2024-06-10,Sud
+CMD-00013,Coopérative Est,Eau minérale,Boissons,5,133.54,2024-05-06,Centre
+CMD-00014,Coopérative Est,Cahier A5,Fournitures,12,110.83,2024-03-11,Centre
+CMD-00015,Atelier Nord,Café en grains,Boissons,4,77.69,2024-03-22,Ouest
+CMD-00016,Coopérative Est,Webcam HD,Électronique,20,498.07,2024-09-27,Est
+CMD-00017,Atelier Nord,"Écran 27""",Électronique,11,57.11,2024-08-10,Sud
+CMD-00018,Société Lumière,Jus d'orange,Boissons,17,381.34,2024-09-16,Nord
+CMD-00019,Maison Claire,Stylo gel,Fournitures,12,381.61,2024-10-03,Centre
+CMD-00020,Boutique Ouest,Webcam HD,Électronique,1,57.27,2024-07-04,Est
+CMD-00021,Société Lumière,Bureau ajustable,Mobilier,19,473.55,2024-02-13,Ouest
+CMD-00022,Groupe Volta,Clavier mécanique,Électronique,16,473.5,2024-03-25,Est
+CMD-00023,Maison Claire,Thé vert,Boissons,10,200.4,2024-12-09,Est
+CMD-00024,Labo Central,Café en grains,Boissons,8,113.51,2024-06-22,Nord
+CMD-00025,Maison Claire,Chaise de bureau,Mobilier,3,354.36,2024-01-31,Sud
+CMD-00026,Société Lumière,"Écran 27""",Électronique,3,257.81,2024-05-22,Ouest
+CMD-00027,Groupe Volta,Tapis de sol,Mobilier,8,392.63,2024-07-27,Sud
+CMD-00028,Atelier Nord,Webcam HD,Électronique,12,212.65,2024-08-27,Nord
+CMD-00029,Société Lumière,Webcam HD,Électronique,11,400.6,2024-02-25,Sud
+CMD-00030,Maison Claire,Tapis de sol,Mobilier,5,211.81,2024-05-22,Ouest
+CMD-00031,Atelier Nord,Tapis de sol,Mobilier,18,50.31,2024-11-29,Centre
+CMD-00032,Atelier Nord,Clavier mécanique,Électronique,6,204.1,2024-09-03,Sud
+CMD-00033,Société Lumière,Thé vert,Boissons,13,2.57,2024-07-18,Est
+CMD-00034,Industries Méridien,Eau minérale,Boissons,18,331.44,2024-09-06,Sud
+CMD-00035,Industries Méridien,Bureau ajustable,Mobilier,2,290.22,2024-10-04,Nord
+CMD-00036,Société Lumière,Ramette A4,Fournitures,19,239.18,2024-09-28,Sud
+CMD-00037,Atelier Nord,Clavier mécanique,Électronique,3,298.13,2024-12-11,Sud
+CMD-00038,Atelier Nord,Thé vert,Boissons,19,297.87,2024-11-13,Nord
+CMD-00039,Boutique Ouest,Jus d'orange,Boissons,7,335.36,2024-06-09,Sud
+CMD-00040,Coopérative Est,Stylo gel,Fournitures,10,229.43,2024-02-07,Nord
+CMD-00041,Atelier Nord,Café en grains,Boissons,18,107.76,2024-05-15,Sud
+CMD-00042,Atelier Nord,Stylo gel,Fournitures,12,143.57,2024-08-12,Centre
+CMD-00043,Société Lumière,Agrafeuse,Fournitures,4,469.56,2024-03-09,Est
+CMD-00044,Atelier Nord,Clavier mécanique,Électronique,9,141.96,2024-04-17,Est
+CMD-00045,Industries Méridien,Tapis de sol,Mobilier,9,452.81,2024-01-27,Nord
+CMD-00046,Industries Méridien,Café en grains,Boissons,1,167.78,2024-03-07,Est
+CMD-00047,Labo Central,Tapis de sol,Mobilier,18,6.32,2024-02-08,Sud
+CMD-00048,Boutique Ouest,Clavier mécanique,Électronique,14,65.03,2024-06-06,Est
+CMD-00049,Boutique Ouest,Clavier mécanique,Électronique,8,333.97,2024-06-30,Centre
+CMD-00050,Groupe Volta,Thé vert,Boissons,6,488.14,2024-03-31,Ouest

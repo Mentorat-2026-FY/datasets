@@ -1,0 +1,138 @@
+{
+  "_meta": {
+    "derniere_execution": "2026-11-21T22:41:54+00:00",
+    "sources": {
+      "bls": "https://api.bls.gov/publicAPI/v2/timeseries/data/{series}",
+      "fao": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/",
+      "imf": "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/PCPS/9.0.0/G001.PFOOD.INDEX.M?measures=all",
+      "oecd": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL,1.0",
+      "regie_energie": "https://www.regie-energie.qc.ca/fr/consommateurs/informations-pratiques/carburant-diesel-par-municipalite-ou-mrc-du-quebec",
+      "statcan": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000403",
+      "worldbank": "https://api.worldbank.org/v2/country/{countries}/indicator/{code}",
+      "yahoo": "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
+    }
+  },
+  "data/raw/fao/food_price_indices.csv": {
+    "inchange": true,
+    "octets": 48110,
+    "sha256": "1e7b4cab727d65ad85ac056a1f4ec21285c3294aebdacb08f01e10be490a4098",
+    "url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?sfvrsn=523ebd2a_84&amp;download=true"
+  },
+  "data/raw/imf/imf_pcps_food_raw.csv": {
+    "inchange": true,
+    "octets": 11264,
+    "sha256": "204066bd6e0e7fbefedeaae31039a333e10e1b851d31481477536e96bb760c10",
+    "url": "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/PCPS/9.0.0/G001.PFOOD.INDEX.M?measures=all"
+  },
+  "data/raw/markets/cbot_corn.csv": {
+    "inchange": true,
+    "octets": 6070,
+    "sha256": "3cfa79d082f0821c08e16bf3599ea37bbbb44401d4885a650dc9966b557a570f",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZC%3DF"
+  },
+  "data/raw/markets/cbot_soybean.csv": {
+    "inchange": true,
+    "octets": 6165,
+    "sha256": "913cdce8bab7abe9d6eef43472054959554f764ae5d210ff9700b8432fdf3560",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZS%3DF"
+  },
+  "data/raw/markets/cbot_wheat.csv": {
+    "inchange": true,
+    "octets": 6077,
+    "sha256": "76e4cdc48b9453eddb754037f4c479c2c4b4dae8dc1db320131ec39b2d4c81df",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZW%3DF"
+  },
+  "data/raw/markets/usdcad_fx.csv": {
+    "inchange": false,
+    "octets": 6877,
+    "sha256": "2a85cbdce3593eaa50bdc6755ee641bcd0f28b8a1430a96f71d5938765c536b5",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/USDCAD%3DX"
+  },
+  "data/raw/oecd/oecd_cpi_merged.csv": {
+    "inchange": false,
+    "octets": 109541,
+    "sha256": "d2d2f895bfb9bedb24987bf61ab688942d13d28f53eb37911539d7a7695d24ae",
+    "url": "fusion des trois extraits OCDE ci-dessus"
+  },
+  "data/raw/oecd/oecd_food_cpi_raw.csv": {
+    "inchange": true,
+    "octets": 292401,
+    "sha256": "3db63d4e5f69373a1b1a6864bffd618f37b5045553135d5b8410971ce7bd327c",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL,1.0/CAN+CHL+ESP+FRA+ITA+JPN+MEX+ZAF.M.N.CPI.IX.CP01.N._Z?startPeriod=2000-01&format=csvfile"
+  },
+  "data/raw/oecd/oecd_food_inflation_raw.csv": {
+    "inchange": true,
+    "octets": 284038,
+    "sha256": "a85f6b134cd3e72879424400ef81eb3e2d42dd81e2af9c96414f1a9282f4957b",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL,1.0/CAN+CHL+ESP+FRA+ITA+JPN+MEX+ZAF.M.N.CPI.PC.CP01.N.G1?startPeriod=2000-01&format=csvfile"
+  },
+  "data/raw/oecd/oecd_headline_inflation_raw.csv": {
+    "inchange": true,
+    "octets": 277665,
+    "sha256": "72dd20ef08183836ac6deec508fbff6f8f45965b85f10b24fd9a77d497951712",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL,1.0/CAN+CHL+ESP+FRA+ITA+JPN+MEX+ZAF.M.N.CPI.PC._T.N.G1?startPeriod=2000-01&format=csvfile"
+  },
+  "data/raw/regie_energie/diesel_moyen_villes_quot2023.pdf": {
+    "inchange": false,
+    "octets": 6629452,
+    "sha256": "c904acef5cef243efed40adb79a01433ea58a505fb2ab257893bcc63e006b7e6",
+    "url": "https://www.regie-energie.qc.ca/storage/app/media/consommateurs/informations-pratiques/prix-petrole/Tableaux/municipalite-ou-mrc/carburant-diesel/prix-moyen-quotidien/diesel_moyen_villes_quot2023.pdf"
+  },
+  "data/raw/regie_energie/diesel_moyen_villes_quot2024.pdf": {
+    "inchange": false,
+    "octets": 2535055,
+    "sha256": "fceba5c35dea6fe954e03288c0bc765ed778a67534c765e7b728f295a712e8a8",
+    "url": "https://www.regie-energie.qc.ca/storage/app/media/consommateurs/informations-pratiques/prix-petrole/Tableaux/municipalite-ou-mrc/carburant-diesel/prix-moyen-quotidien/diesel_moyen_villes_quot2024.pdf"
+  },
+  "data/raw/regie_energie/diesel_moyen_villes_quot2025.pdf": {
+    "inchange": false,
+    "octets": 2659714,
+    "sha256": "676dfa97b66f255c77b3446ea51a024721216b5e7b78c210047fe8e570d2933a",
+    "url": "https://www.regie-energie.qc.ca/storage/app/media/consommateurs/informations-pratiques/prix-petrole/Tableaux/municipalite-ou-mrc/carburant-diesel/prix-moyen-quotidien/diesel_moyen_villes_quot2025.pdf"
+  },
+  "data/raw/regie_energie/diesel_moyen_villes_quot2026.pdf": {
+    "inchange": false,
+    "octets": 2432712,
+    "sha256": "49b1119c73215f40e760490943dc85eab5f36dd8012513baef09da08a97f3239",
+    "url": "https://www.regie-energie.qc.ca/storage/app/media/consommateurs/informations-pratiques/prix-petrole/Tableaux/municipalite-ou-mrc/carburant-diesel/prix-moyen-quotidien/diesel_moyen_villes_quot2026.pdf"
+  },
+  "data/raw/statcan/18100004-eng.zip": {
+    "note": "archive source extraite dans ce meme dossier",
+    "octets": 15336576,
+    "sha256": "7852a5ea863a62129c7733059ba031c661348b8b3d38a3744d77e9053d10a390",
+    "url": "https://www150.statcan.gc.ca/n1/tbl/csv/18100004-eng.zip"
+  },
+  "data/raw/statcan/18100004.csv": {
+    "inchange": false,
+    "octets": 161295102,
+    "sha256": "73a9a1528412c7fa2ab2d9100ec61f97fafe886379cf8192c0b13cd58533fc75",
+    "url": "https://www150.statcan.gc.ca/n1/tbl/csv/18100004-eng.zip"
+  },
+  "data/raw/statcan/18100004_MetaData.csv": {
+    "inchange": false,
+    "octets": 44899,
+    "sha256": "2ce4c66ea5fea451f1dcc9732ddf1a09e3999b5c10a8e3ab6bfd4e6b091ad38c",
+    "url": "https://www150.statcan.gc.ca/n1/tbl/csv/18100004-eng.zip"
+  },
+  "data/raw/us/bls_us_cpi_food_raw.csv": {
+    "inchange": true,
+    "octets": 11589,
+    "sha256": "7a18f6b627a63431f7f6c0fec7e527530d4d120b2c0cc54e5b6458668556984d",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF11"
+  },
+  "data/raw/worldbank/worldbank_cpi_raw.csv": {
+    "inchange": false,
+    "octets": 26057,
+    "sha256": "8591419583abd2b7fa8e7b422aa7d1452d0f65e2b90807e8ef642358cfad2264",
+    "url": "https://api.worldbank.org/v2/country/CAN%3BUSA%3BCHL%3BESP%3BFRA%3BITA%3BJPN%3BMEX%3BZAF%3BPRT/indicator/FP.CPI.TOTL.ZG"
+  },
+  "statcan/18100004-eng.zip": {
+    "sha256": "7852a5ea863a62129c7733059ba031c661348b8b3d38a3744d77e9053d10a390"
+  },
+  "statcan/18100004.csv": {
+    "sha256": "73a9a1528412c7fa2ab2d9100ec61f97fafe886379cf8192c0b13cd58533fc75"
+  },
+  "statcan/18100004_MetaData.csv": {
+    "sha256": "2ce4c66ea5fea451f1dcc9732ddf1a09e3999b5c10a8e3ab6bfd4e6b091ad38c"
+  }
+}

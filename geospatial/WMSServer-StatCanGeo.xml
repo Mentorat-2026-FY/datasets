@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WMS_Capabilities version="1.3.0"
+  xmlns="http://www.opengis.net/wms"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:esri_wms="http://www.esri.com/wms"
+  xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.esri.com/wms https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?version=1.3.0%26service=WMS%26request=GetSchemaExtension">
+  <Service>
+    <Name><![CDATA[WMS]]></Name>
+    <Title><![CDATA[2021 Fichiers des limites cartographiques (FLC)]]></Title>
+    <Abstract><![CDATA[2021 Fichiers des limites cartographiques (FLC). Étendue géographique: SO: -180, 36.27; NE: 180 90; Période de temps: Depuis: 2021-01-01 - Jusqu'à:; Date: 2022-09-21 (Publication); Type de date; Publication; Etat: Complété; Fréquence de mise à jour: Au besoin; Contraintes sur la ressource; Limitation d'utilisation: Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada) Contraintes d'accès: Licence; Contraintes d'utilisation: Licence; Type de représentation spatiale: Vecteur; Langue: Français / Anglais; Jeu de caractère: UTF8; RENSEIGNEMENTS SUR LA DISTRIBUTION; Format de distribution; Nom du format: ESRI REST; Version: 10.8.1; Nom du format: WMS; Version: 1.3.0; FICHE DE MÉTADONNÉES; Type de ressource: Jeu de données; Langue: Français / Anglais; Nom de la norme pour les métadonnées: Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées; Version de la norme pour les métadonnées: CAN/CGSB-171.100-2009; Information sur le système de référence: ESPG:3347 NAD83 / Statistics Canada Lambert; POINT DE CONTACT POUR LES MÉTADONNÉES; Organisation: Gouvernement du Canada; Statistique Canada; Centre de géomatique statistique; Numéro de téléphone: 1-800-263-1136; Numéro de télécopieur: 1-514-283-935; Adresse: 150, promenade Tunney's Pasture, Ottawa, Ontario, K1A0T6, Canada (le); Courriel: infostats@statcan.gc.ca; Heures de service: 8 h 30 à 16 h 30; Rôle: Créateur;]]></Abstract>
+    <KeywordList><Keyword><![CDATA[urbain,rural,municipal,communautaire]]></Keyword></KeywordList>
+    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?"/>
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson><![CDATA[]]></ContactPerson>
+        <ContactOrganization><![CDATA[Statistique Canada]]></ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition><![CDATA[]]></ContactPosition>
+      <ContactAddress>
+        <AddressType><![CDATA[]]></AddressType>
+        <Address><![CDATA[150, promenade Tunney's Pasture]]></Address>
+        <City><![CDATA[Ottawa]]></City>
+        <StateOrProvince><![CDATA[Ontario]]></StateOrProvince>
+        <PostCode><![CDATA[K1A 0T6]]></PostCode>
+        <Country><![CDATA[Canada]]></Country>
+      </ContactAddress>
+      <ContactVoiceTelephone><![CDATA[1-800-263-1136]]></ContactVoiceTelephone>
+      <ContactFacsimileTelephone><![CDATA[1-514-283-9350]]></ContactFacsimileTelephone>
+      <ContactElectronicMailAddress><![CDATA[infostats@statcan.gc.ca]]></ContactElectronicMailAddress>
+    </ContactInformation>
+    <Fees><![CDATA[]]></Fees>
+    <AccessConstraints><![CDATA[Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)]]></AccessConstraints>
+    <MaxWidth>4096</MaxWidth>
+    <MaxHeight>4096</MaxHeight>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?"/></Get></HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/bmp</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/tiff</Format>
+        <Format>image/png</Format>
+        <Format>image/png8</Format>
+        <Format>image/png24</Format>
+        <Format>image/png32</Format>
+        <Format>image/gif</Format>
+        <Format>image/svg+xml</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?"/></Get></HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>application/vnd.esri.wms_raw_xml</Format>
+        <Format>application/vnd.esri.wms_featureinfo_xml</Format>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <Format>application/geo+json</Format>
+        <Format>text/xml</Format>
+        <Format>text/html</Format>
+        <Format>text/plain</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?"/></Get></HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+      <esri_wms:GetStyles>
+        <Format>application/vnd.ogc.sld+xml</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?"/></Get></HTTP>
+        </DCPType>
+      </esri_wms:GetStyles>
+    </Request>
+    <Exception>
+      <Format>application/vnd.ogc.se_xml</Format>
+      <Format>application/vnd.ogc.se_inimage</Format>
+      <Format>application/vnd.ogc.se_blank</Format>
+      <Format>text/xml</Format>
+      <Format>XML</Format>
+    </Exception>
+    <Layer>
+      <Title><![CDATA[Fichiers des limites cartographiques]]></Title>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+      <Layer queryable="1">
+        <Name>RTA_-_lrta000b21s_f28559</Name>
+        <Title><![CDATA[RTA - lrta000b21s_f]]></Title>
+        <Abstract><![CDATA[Le Fichier des limites des régions de tri d’acheminement censitaires 2021 illustre les limites de 1 643 régions de tri d'acheminement censitaires (RTAC) (la région de tri d'acheminement correspond aux trois premiers caractères du code postalMO) établies d'après les codes postauxMO saisis sur les questionnaires du Recensement de la population de 2021. Il contient des renseignements tels que l'identificateur unique (IDU), ainsi que la superficie des terres et l'identificateur unique de la province ou du territoire (PRIDU).]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[RTA - lrta000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=RTA_-_lrta000b21s_f28559" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>ID_-_lid_000b21s_f7232</Name>
+        <Title><![CDATA[ID - lid_000b21s_f]]></Title>
+        <Abstract><![CDATA[Îlot de diffusion 2021 Fichiers des limites cartographiques (FLC). 
+Un îlot de diffusion (ID) est un territoire dont tous les côtés sont délimités par des routes et/ou par des limites de régions géographiques normalisées de Statistique Canada aux fins de diffusion. L'îlot de diffusion est la plus petite région géographique pour laquelle les chiffres de population et des logements sont diffusés. Les îlots de diffusion couvrent tout le territoire du Canada.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[ID - lid_000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=ID_-_lid_000b21s_f7232" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>763026.205357</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>AD_-_lad_000b21s_f17008</Name>
+        <Title><![CDATA[AD - lad_000b21s_f]]></Title>
+        <Abstract><![CDATA[Aire de diffusion 2021 Fichiers des limites cartographiques (FLC). 
+Une aire de diffusion (AD) est une petite unité géographique relativement stable formée d'un ou de plusieurs îlots de diffusion avoisinants dont la population moyenne est de 400 à 700 habitants d'après les données du Recensement de la population précédent. Il s'agit de la plus petite région géographique normalisée pour laquelle toutes les données du recensement sont diffusées. Les AD couvrent tout le territoire du Canada.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[AD - lad_000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AD_-_lad_000b21s_f17008" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>1526052.410714</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SR_-_lsr_000b21s_f55184</Name>
+        <Title><![CDATA[SR - lsr_000b21s_f]]></Title>
+        <Abstract><![CDATA[Secteurs de recensement 2021, Fichiers des limites cartographiques (FLC). Les secteurs de recensement (SR) sont de petites régions géographiques relativement stables qui comptent habituellement une population de moins de 7 500 habitants d'après les données du Programme du recensement précédent sur la population. Ils sont créés au sein de régions métropolitaines de recensement (RMR) et d'agglomérations de recensement (AR) dont le noyau comptait 50 000 habitants ou plus d'après le recensement précédent. Un comité de spécialistes locaux (par exemple, des planificateurs municipaux et autres) délimite initialement les SR de concert avec Statistique Canada. Une fois qu'une RMR ou qu'une AR a été subdivisée en SR, les SR sont maintenus même si, ultérieurement, la population du noyau de la RMR ou de l'AR devient inférieure à 50 000 habitants.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-130.673311</westBoundLongitude><eastBoundLongitude>-46.889844</eastBoundLongitude><southBoundLatitude>36.568216</southBoundLatitude><northBoundLatitude>61.642252</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-130.673311" miny="36.568216" maxx="-46.889844" maxy="61.642252"/>
+<BoundingBox CRS="EPSG:4326" minx="36.568216" miny="-130.673311" maxx="61.642252" maxy="-46.889844"/>
+<BoundingBox CRS="EPSG:3347" minx="3912489.205700" miny="687427.742900" maxx="8996148.402900" maxy="2810991.711400"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[SR - lsr_000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=SR_-_lsr_000b21s_f55184" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>ADA_-_lada000b21s_f7959</Name>
+        <Title><![CDATA[ADA - lada000b21s_f]]></Title>
+        <Abstract><![CDATA[Aire de diffusion agrégée 2021 Fichiers des limites cartographiques (FLC).
+On crée les aires de diffusion agrégées (ADA) en regroupant des régions géographiques de diffusion existantes, y compris les secteurs de recensement (SR), les subdivisions de recensement (SDR) et les aires de diffusion (AD). Les ADA couvrent l'ensemble du pays et, dans la mesure du possible, ont une population de 5 000 à 15 000 habitants selon les chiffres de population du recensement précédent. Les limites de l'ADA respectent les limites provinciales et territoriales ainsi que les limites des divisions de recensement (DR), des régions métropolitaines de recensement (RMR) et des agglomérations de recensement (AR). L'objectif de l'ADA consiste à garantir la disponibilité de données du recensement, dans la mesure du possible, pour toutes les régions du Canada.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[ADA - lada000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=ADA_-_lada000b21s_f7959" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SDR_-_lsdr000b21s_f44639</Name>
+        <Title><![CDATA[SDR - lsdr000b21s_f]]></Title>
+        <Abstract><![CDATA[Subdivision de recensement 2021 Fichiers des limites cartographiques (FLC).
+Subdivision de recensement (SDR) est le terme générique qui désigne les municipalités (selon les lois provinciales/territoriales) ou les territoires considérés comme des équivalents municipaux à des fins statistiques (p. ex. les réserves indiennes, les établissements indiens et les territoires non organisés). Le statut de municipalité est défini par les lois en vigueur dans les provinces et les territoires au Canada.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[SDR - lsdr000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=SDR_-_lsdr000b21s_f44639" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>LD_-_lld_000b21s_f47424</Name>
+        <Title><![CDATA[LD - lld_000b21s_f]]></Title>
+        <Abstract><![CDATA[Localité désignée 2021,  Fichiers des limites cartographiques (FLC). Correspond habituellement à une petite collectivité qui ne satisfait pas aux critères utilisés pour définir les municipalités ou les centres de population (régions d'au moins 1 000 habitants et une densité de 400 habitants au kilomètre carré). Les localités désignées sont créées par les provinces et les territoires, en collaboration avec Statistique Canada, afin de fournir des données pour les régions inframunicipales.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-142.229247</westBoundLongitude><eastBoundLongitude>-37.395300</eastBoundLongitude><southBoundLatitude>36.888704</southBoundLatitude><northBoundLatitude>69.411472</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-142.229247" miny="36.888704" maxx="-37.395300" maxy="69.411472"/>
+<BoundingBox CRS="EPSG:4326" minx="36.888704" miny="-142.229247" maxx="69.411472" maxy="-37.395300"/>
+<BoundingBox CRS="EPSG:3347" minx="3737240.405700" miny="734150.485700" maxx="9003745.425700" maxy="3651677.734300"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[LD - lld_000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=LD_-_lld_000b21s_f47424" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>CP_-_lcp_000b21s_f3344</Name>
+        <Title><![CDATA[CP - lcp_000b21s_f]]></Title>
+        <Abstract><![CDATA[Région métropolitaine de recensement 2021, Fichiers des limites cartographiques (FLC). Un centre de population (CTRPOP) contient une concentration démographique d'au moins 1 000 habitants et une densité de population de 400 habitants ou plus au kilomètre carré selon les chiffres de population du recensement actuel. Toutes les régions situées à l'extérieur des centres de population sont classées dans la catégorie des régions rurales. Ensemble, les centres de population et les régions rurales couvrent l'ensemble du Canada. Les centres de population sont classés en trois groupes selon la taille de leur population : les petits centres de population, comptent une population de 1 000 à 29 999 habitants les moyens centres de population, comptent une population de 30 000 à 99 999 habitants les grands centres de population urbains, comptent une population de 100 000 habitants et plus. La population des centres de population comprend toute la population vivant dans les noyaux, les noyaux secondaires et les banlieues des régions métropolitaines de recensement (RMR) et des agglomérations de recensement (AR) ainsi que la population vivant dans les centres de population à l'extérieur des RMR et des AR.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-147.037546</westBoundLongitude><eastBoundLongitude>-31.748361</eastBoundLongitude><southBoundLatitude>36.630597</southBoundLatitude><northBoundLatitude>73.249899</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-147.037546" miny="36.630597" maxx="-31.748361" maxy="73.249899"/>
+<BoundingBox CRS="EPSG:4326" minx="36.630597" miny="-147.037546" maxx="73.249899" maxy="-31.748361"/>
+<BoundingBox CRS="EPSG:3347" minx="3826980.345700" miny="690439.180000" maxx="8985893.160000" maxy="4070509.800000"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[CP - lcp_000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=CP_-_lcp_000b21s_f3344" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>RMR_-_lrmr000b21s_f59247</Name>
+        <Title><![CDATA[RMR - lrmr000b21s_f]]></Title>
+        <Abstract><![CDATA[Région métropolitaine de recensement 2021, Fichiers des limites cartographiques (FLC). Une région métropolitaine de recensement (RMR) ou une agglomération de recensement (AR) est formée d'une ou de plusieurs municipalités adjacentes situées autour d'un centre de population (aussi appelé le noyau). Selon les données du Programme du Recensement de la population actuel, une RMR doit avoir une population totale d'au moins 100 000 habitants, et son noyau doit compter au moins 50 000 habitants d'après les données ajustées du Programme du Recensement de la population précédent. Quant à l'AR, son noyau doit compter au moins 10 000 habitants toujours selon les données du Programme du Recensement de la population précédent. Pour être incluses dans une RMR ou une AR, les autres municipalités adjacentes doivent avoir un degré d'intégration élevé avec le noyau, lequel est déterminé par le pourcentage de navetteurs (déplacement domicile lieu de travail) établi d'après les données du Programme du recensement précédent sur le lieu de travail. Si la population du noyau d'une AR diminue et devient inférieure à 10 000 habitants, l'AR est retirée du programme lors du prochain recensement. Cependant, une RMR restera une RMR même si sa population totale devient inférieure à 100 000 habitants ou si la population de son noyau devient inférieure à 50 000 habitants. Toutes les régions à l'intérieur des RMR et des AR qui ne sont pas des centres de population sont des régions rurales. Lorsque l'AR a un noyau comptant au moins 50 000 habitants d'après les données du recensement précédent sur la population, elle est subdivisée en secteurs de recensement. Les secteurs de recensement sont maintenus pour l'AR même si la population du noyau diminue par la suite à moins de 50 000. Toutes les RMR sont subdivisées en secteurs de recensement.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-138.953269</westBoundLongitude><eastBoundLongitude>-39.166055</eastBoundLongitude><southBoundLatitude>36.568216</southBoundLatitude><northBoundLatitude>68.183750</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-138.953269" miny="36.568216" maxx="-39.166055" maxy="68.183750"/>
+<BoundingBox CRS="EPSG:4326" minx="36.568216" miny="-138.953269" maxx="68.183750" maxy="-39.166055"/>
+<BoundingBox CRS="EPSG:3347" minx="3856867.314300" miny="687427.742900" maxx="8996148.402900" maxy="3518467.314300"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[RMR - lrmr000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=RMR_-_lrmr000b21s_f59247" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>SRU_-_lsru000b21s_f65431</Name>
+        <Title><![CDATA[SRU - lsru000b21s_f]]></Title>
+        <Abstract><![CDATA[Subdivision de recensement unifiée 2021 Fichiers des limites cartographiques (FLC).
+Une subdivision de recensement unifiée (SRU) est un groupe de subdivisions de recensement adjacentes situées au sein de la même division de recensement. Il s'agit généralement de petites subdivisions de recensement à forte densité de population (villes, villages, etc.) qui sont groupées avec une plus grande subdivision de recensement plutôt rurale, de façon à créer un niveau géographique entre la subdivision de recensement et la division de recensement.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[SRU - lsru000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=SRU_-_lsru000b21s_f65431" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>DR_-_ldr_000b21s_f30000</Name>
+        <Title><![CDATA[DR - ldr_000b21s_f]]></Title>
+        <Abstract><![CDATA[Division de recensement 2021 Fichiers des limites cartographiques (FLC).
+Groupe de municipalités voisines les unes des autres qui sont réunies pour des besoins de planification régionale et de gestion de services communs (comme les services de police et d'ambulance). Ces groupes sont créés selon les lois en vigueur dans certaines provinces du Canada. Division de recensement (DR) est le terme général de régions créées en vertu des lois provinciales (comme comté, municipalité régionale de comté [MRC] et regional district) ou des régions équivalentes. Dans d'autres provinces et dans les territoires, où les lois ne prévoient pas de telles régions, Statistique Canada définit des régions équivalentes à des fins statistiques en collaboration avec ces provinces et territoires. Les divisions de recensement sont des régions géographiques intermédiaires entre la municipalité (subdivision de recensement) et la province/territoire.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[DR - ldr_000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=DR_-_ldr_000b21s_f30000" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>CÉF_-_lcéf000b21s_f1303</Name>
+        <Title><![CDATA[CÉF - lcéf000b21s_f]]></Title>
+        <Abstract><![CDATA[Circonscription électorale fédérale 2021 Fichiers des limites cartographiques (FLC). 
+Une circonscription électorale fédérale (CEF) est une région représentée par un député à la Chambre des communes. Les limites des circonscriptions électorales fédérales utilisées dans le cadre du Recensement de 2021 sont fondées sur l'Ordonnance de représentation de 2013.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[CÉF - lcéf000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=CÉF_-_lcéf000b21s_f1303" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>RÉ_-__lré_000b21s_f21144</Name>
+        <Title><![CDATA[RÉ -  lré_000b21s_f]]></Title>
+        <Abstract><![CDATA[Régions économiques 2021 Fichiers des limites cartographiques (FLC). 
+Une région économique (RE) est constituée d'un groupe de divisions de recensement (DR) entières (sauf pour un cas en Ontario). Ces régions sont créées comme une unité géographique normalisée et servent à l'analyse de l'activité économique régionale.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[RÉ -  lré_000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=RÉ_-__lré_000b21s_f21144" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>RAR_-_lrar000b21s_f35055</Name>
+        <Title><![CDATA[RAR - lrar000b21s_f]]></Title>
+        <Abstract><![CDATA[Régions agricoles de recensement 2021 Fichiers des limites cartographiques (FLC). 
+Les régions agricoles de recensement sont composées de groupes de divisions de recensement adjacentes.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[RAR - lrar000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=RAR_-_lrar000b21s_f35055" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>PR_-_lpr_000b21s_f22000</Name>
+        <Title><![CDATA[PR - lpr_000b21s_f]]></Title>
+        <Abstract><![CDATA[Province et territoire 2021 Fichiers des limites cartographiques (FLC).
+Les termes « province » et « territoire » désignent les principales unités politiques du Canada. Le Canada est divisé en 10 provinces et 3 territoires. Du point de vue statistique, les provinces et les territoires sont des régions de base selon lesquelles les données sont totalisées.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3347</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-171.216533</westBoundLongitude><eastBoundLongitude>-10.418786</eastBoundLongitude><southBoundLatitude>36.281519</southBoundLatitude><northBoundLatitude>83.603457</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-171.216533" miny="36.281519" maxx="-10.418786" maxy="83.603457"/>
+<BoundingBox CRS="EPSG:4326" minx="36.281519" miny="-171.216533" maxx="83.603457" maxy="-10.418786"/>
+<BoundingBox CRS="EPSG:3347" minx="3689321.462900" miny="659305.002900" maxx="9015750.722900" maxy="5242009.105700"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[PR - lpr_000b21s_f]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geo.statcan.gc.ca:443/geo_wa/services/2021/Fichiers_des_limites_cartographiques/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=PR_-_lpr_000b21s_f22000" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1490.171131</MinScaleDenominator>
+        <MaxScaleDenominator>97667339.166667</MaxScaleDenominator>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>

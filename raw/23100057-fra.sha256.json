@@ -1,0 +1,8 @@
+{
+  "source": "https://www150.statcan.gc.ca/n1/tbl/csv/23100057-fra.zip",
+  "archive_sha256": "9e4a08fa050e7ad3bdcf4657da43603e3ee7c6ef04a1916bdfec21bde2a7645a",
+  "fichiers": {
+    "23100057.csv": "2ab053dbae1aead0b340cb25b5a2977e9025ac8254e1be5b6d1f565d0ab2fced",
+    "23100057_MetaData.csv": "815fb28449a4b8a371a366770d2becb75ae3785a43b84f89287f6499893fcce4"
+  }
+}

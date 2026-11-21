@@ -1,0 +1,59 @@
+﻿"Titre du cube";"Numéro d'identification du produit";"Numéro d'identification de CANSIM";URL;"Notes sur le cube";"État de l'archivage";Fréquence;"Début de la période de référence";"Fin de la période de référence";"Nombre total de dimensions"
+"Sommaire des statistiques sur le transport de marchandises et de voyageurs de l'industrie ferroviaire";"23100057";"404-0016";"https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=2310005701";1,2;"ACTIF - un cube qui est disponible au public et qui est toujours mise a jour";"Annuelle";"1986-01-01";"2024-01-01";"3";
+
+"Numéro d'identification de la dimension";"Nom de la dimension";"Notes sur la dimension";"Définitions de la dimension"
+"1";"Géographie";;""
+"2";"Compagnies";;""
+"3";"Statistiques";;""
+
+"Numéro d'identification de la dimension";"Nom du membre";"Code sur la classification";"Numéro d'identification du membre";"Numéro d'identification du membre parent";Terminé;"Notes sur le membre";"Définitions du membre"
+"1";"Canada";"[11124]";"1";"";"";;
+"2";"Total des compagnies";"";"1";"";"";;
+"2";"Canadien National";"";"2";"1";"";;
+"2";"Canadien Pacifique";"";"3";"1";"";;
+"2";"VIA Rail";"";"4";"1";"";;
+"2";"Transporteurs régionaux";"";"5";"1";"";3;
+"3";"Marchandises payantes, tonnes";"";"1";"";"";;
+"3";"Marchandises payantes, tonnes-kilomètres";"";"2";"";"";;
+"3";"Marchandises payantes, trajet moyen par expédition";"";"3";"";"";;
+"3";"Marchandises payantes et non-payantes, tonnes";"";"4";"";"";;
+"3";"Marchandises payantes et non-payantes, tonnes-kilomètres";"";"5";"";"";;
+"3";"Marchandises payantes et non-payantes, trajet moyen par expédition";"";"6";"";"";;
+"3";"Voyageurs payants, voyageurs";"";"7";"";"";;
+"3";"Voyageurs payants, voyageurs-kilomètres";"";"8";"";"";;
+"3";"Voyageurs payants, trajet moyen par billet";"";"9";"";"";;
+"3";"Services de transports, moyennes, wagons par train de marchandises";"";"10";"";"";;
+"3";"Services de transports, moyennes, voitures par train de voyageurs";"";"11";"";"";;
+"3";"Services de transports, moyennes, chargements de wagons";"";"12";"";"";;
+"3";"Services de transports, moyennes, wagons-kilomètres vides";"";"13";"";"";;
+"3";"Services de transports, moyennes, vitesse des trains de marchandises";"";"14";"";"";;
+
+Légende Symbole
+Description;Symbole
+"indisponible pour une période de référence précise";"..";
+"inférieur à la limite de détection";"<LDD";
+"valeur arrondie à 0 (zéro) là où il y a une distinction importante entre le zéro absolu et la valeur arrondie";"0s";
+"qualité des données : excellente";"A";
+"qualité des données : très bonne";"B";
+"qualité des données : bonne";"C";
+"qualité des données : acceptable";"D";
+"à utiliser avec prudence";"E";
+"trop peu fiable pour être publié";"F";
+"n'ayant pas lieu de figurer";"...";
+"provisoire";"p";
+"révisé";"r";
+"confidentiel en vertu des dispositions de la Loi sur la statistique";"x";
+"terminé";"t";
+
+"Code d'enquête";"Nom de l'enquête"
+"2734";"Enquête annuelle sur le transport ferroviaire"
+
+"Code du sujet";"Nom du sujet"
+"23";"Transport"
+
+"Numéro d'identification de la note";Note
+1;"Les données financières, d'exploitation et d'origine et de destination peuvent varier d'une année à l'autre suite à des fluctuations dans le taux de change sur les devises, des reclassifications des comptes, etcetera. Les données sont également influencées par les fusions et acquisitions et les compagnies qui entrent ou sortent de l'industrie."
+2;"Il est important de prendre en note que l'univers des transporteurs régionaux et sur courtes distances change régulièrement."
+3;"Le tableau personnalisé sur les chemins de fer régionaux n’est plus mis à jour. Les plus récentes données rendent compte des révisions finales."
+
+"Numéro d'identification de la correction";"Date de la correction";"Note sur la correction"

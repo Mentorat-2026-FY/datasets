@@ -1,0 +1,18 @@
+{
+  "provinces_2021": {
+    "titre_wms": "PR - lpr_000b21s_f",
+    "id_couche_rest": 0,
+    "geo_package": "data/raw/geo/provinces_2021.gpkg",
+    "sha256": "398046364ccff7bee4f6300672d8e3c2b3a53224d6f4d3d81a5e43a1bb40ec7c",
+    "taille_octets": 14561280,
+    "entites": 13
+  },
+  "divisions_2021": {
+    "titre_wms": "DR - ldr_000b21s_f",
+    "id_couche_rest": 4,
+    "geo_package": "data/raw/geo/divisions_2021.gpkg",
+    "sha256": "d1a142793e46e980bac082422f6b23fd92040fe76654284bcf71fb180f7c4ed7",
+    "taille_octets": 24989696,
+    "entites": 293
+  }
+}
